@@ -1,0 +1,32 @@
+{
+  "name": "hello_eth",
+  "version": "1.0.0",
+  "description": "blockchain",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack && http-server ./dist",
+    "build": "truffle compile",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "json-loader": "^0.5.7",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "solc": "^0.4.24",
+    "style-loader": "^0.21.0",
+    "truffle": "^4.1.13",
+    "web3": "^1.0.0-beta.34",
+    "webpack": "^4.16.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.0.8"
+  }
+}
